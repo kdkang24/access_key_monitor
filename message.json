@@ -1,0 +1,16 @@
+{
+  "Subject": {
+      "Data": "AWS Access Key Rotation Required",
+      "Charset": "UTF-8"
+  },
+  "Body": {
+      "Text": {
+          "Data": "Your access key for user %USER% in AWS account %ACCOUNT% (%NAME%) is more than 365 days old. Please rotate your key as soon as possible.",
+          "Charset": "UTF-8"
+      },
+      "Html": {
+          "Data": "Your access key for user %USER% in AWS account %ACCOUNT% (%NAME%) is more than 365 days old. Please rotate your key as soon as possible. Instructions can be found at this link: <a class=\"ulink\" href=\"https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html#Using_CreateAccessKey\" target=\"_blank\">AWS - Managing Access Keys</a>.",
+          "Charset": "UTF-8"
+      }
+  }
+}
